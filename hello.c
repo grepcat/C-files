@@ -47,15 +47,9 @@ int main (void)
     printf("ULONG_MAX   :   %lu\n", (unsigned long) ULONG_MAX);
     printf("USHRT_MAX   :   %d\n", (unsigned short) USHRT_MAX);
 
-    printf("Storage size for float : %d \n", sizeof(float));
-    printf("FLT_MAX     :   %g\n", (float) FLT_MAX);
-    printf("FLT_MIN     :   %g\n", (float) FLT_MIN);
-    printf("-FLT_MAX    :   %g\n", (float) -FLT_MAX);
-    printf("-FLT_MIN    :   %g\n", (float) -FLT_MIN);
-    printf("DBL_MAX     :   %g\n", (double) DBL_MAX);
-    printf("DBL_MIN     :   %g\n", (double) DBL_MIN);
-    printf("-DBL_MAX     :  %g\n", (double) -DBL_MAX);
-    printf("Precision value: %d\n", FLT_DIG );
-
+/* Took out this section on values for a git hub change test */
+/* Ubuntu made this change */
+		printf(" The previous section on floating point types has been removed\n");
+		printf(" This was made by the Ubuntu VM\n");
     return(0);
 }
