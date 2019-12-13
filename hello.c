@@ -31,6 +31,11 @@ int main (void)
     /*
      * now do some fancy pants printing
      */
+    /* RH put this change in right here*/
+    printf("RH_change starts here\n");
+    printf("Look here :-) \n");
+    printf("Change over, back to printing\n\n");
+    /*Change over man!*/ 
     printf("CHAR_BIT    :   %d\n", CHAR_BIT);
     printf("CHAR_MAX    :   %d\n", CHAR_MAX);
     printf("CHAR_MIN    :   %d\n", CHAR_MIN);
