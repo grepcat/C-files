@@ -12,6 +12,7 @@ int main (void)
 {
     printf("hello, world\n");
     printf("fibonacci this mother fudgers!\n");
+    printf("Jenkins test this mother fudgers!\n");
 
 /*
  * do the fibonacci thing
